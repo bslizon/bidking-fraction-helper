@@ -119,7 +119,6 @@ def main():
     print("参数:")
     print(f"limit = {limit}")
     print(f"top_k = {top_k}")
-    print("备注：历史数据存在过 3.81 验证，因此命中截断/舍去规则的结果标记为【优先考虑】。")
 
     while True:
         x_str = input("\n请输入一个小数，最多保留小数点后 2 位；直接回车或输入 q 退出: ").strip()
