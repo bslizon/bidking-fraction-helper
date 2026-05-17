@@ -121,9 +121,9 @@ def main():
     print(f"top_k = {top_k}")
 
     while True:
-        x_str = input("\n请输入一个小数，最多保留小数点后 2 位；直接回车或输入 q 退出: ").strip()
+        x_str = input("\n请输入一个小数，最多保留小数点后 2 位；输入 q 退出: ").strip()
 
-        if x_str == "" or x_str.lower() in {"q", "quit", "exit"}:
+        if x_str.lower() in {"q", "quit", "exit"}:
             print("已退出")
             break
 
